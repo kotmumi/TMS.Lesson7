@@ -24,7 +24,7 @@ class Shape {
     }
     
     func printArea() {
-        print("\(nameShape): area = \(String(format: "%.2f", calculateArea())) мм2")
+        print("shape - \(nameShape): area = \(String(format: "%.2f", calculateArea())) мм2. Color: \(color)")
     }
 }
 
